@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[MidViewController tableView:commitEditingStyle:forRowAtIndexPath:]:MidViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[object valueForKey:@&quot;gymId&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MidViewController numberOfSectionsInTableView:]:MidViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.gym">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MidViewController tableView:numberOfRowsInSection:]:MidViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.gym mutableSetValueForKey:@&quot;exercises&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DetailViewController configureView]:DetailViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DetailViewController setDetailItem:]:DetailViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MidViewController insertNewObject:]:MidViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.gym valueForKey:@&quot;id&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "[newManagedObject valueForKey:@&quot;gymId&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MidViewController prepareForSegue:sender:]:MidViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MasterViewController insertNewObject:]:MasterViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[newManagedObject valueForKey:@&quot;id&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MasterViewController viewDidLoad]:MasterViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.splitViewController.viewControllers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MasterViewController prepareForSegue:sender:]:MasterViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[object exercises];">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MidViewController tableView:cellForRowAtIndexPath:]:MidViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MidViewController configureCell:atIndexPath:]:MidViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MidViewController viewDidLoad]:MidViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[midSplitViewController.viewControllers lastObject]">
+            </PersistentString>
+            <PersistentString
+               value = "self.splitViewController.viewControllers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MidViewController fetchedResultsController]:MidViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[NSString stringWithFormat:@&quot;gymId = &apos;%@&apos;&quot;, @1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MasterViewController fetchedResultsController]:MasterViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8401F7BC1CE089270073DC1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401F7BB1CE089270073DC1F /* main.m */; };
+		8401F7BF1CE089270073DC1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401F7BE1CE089270073DC1F /* AppDelegate.m */; };
+		8401F7C21CE089270073DC1F /* GymNew.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8401F7C01CE089270073DC1F /* GymNew.xcdatamodeld */; };
+		8401F7C51CE089270073DC1F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401F7C41CE089270073DC1F /* MasterViewController.m */; };
+		8401F7C81CE089270073DC1F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401F7C71CE089270073DC1F /* DetailViewController.m */; };
+		8401F7CB1CE089270073DC1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401F7C91CE089270073DC1F /* Main.storyboard */; };
+		8401F7CD1CE089270073DC1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8401F7CC1CE089270073DC1F /* Assets.xcassets */; };
+		8401F7D01CE089270073DC1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401F7CE1CE089270073DC1F /* LaunchScreen.storyboard */; };
+		8453C3481CE0909100119733 /* MidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453C3471CE0909100119733 /* MidViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8401F7B71CE089270073DC1F /* GymNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8401F7BB1CE089270073DC1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8401F7BD1CE089270073DC1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8401F7BE1CE089270073DC1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8401F7C11CE089270073DC1F /* GymNew.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GymNew.xcdatamodel; sourceTree = "<group>"; };
+		8401F7C31CE089270073DC1F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		8401F7C41CE089270073DC1F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		8401F7C61CE089270073DC1F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8401F7C71CE089270073DC1F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8401F7CA1CE089270073DC1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8401F7CC1CE089270073DC1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8401F7CF1CE089270073DC1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8401F7D11CE089270073DC1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8424E9091CF463150045A162 /* GymNew 2.0 With gym and exercise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "GymNew 2.0 With gym and exercise.xcdatamodel"; sourceTree = "<group>"; };
+		8424E90A1CF4729A0045A162 /* GymNew 2.0 With gym and exercise e_type.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "GymNew 2.0 With gym and exercise e_type.xcdatamodel"; sourceTree = "<group>"; };
+		8424E90C1CF9034E0045A162 /* ExerciseTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExerciseTypes.h; sourceTree = "<group>"; };
+		8453C3461CE08B5200119733 /* MidViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MidViewController.h; sourceTree = "<group>"; };
+		8453C3471CE0909100119733 /* MidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8401F7B41CE089270073DC1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8401F7AE1CE089270073DC1F = {
+			isa = PBXGroup;
+			children = (
+				8401F7B91CE089270073DC1F /* GymNew */,
+				8401F7B81CE089270073DC1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8401F7B81CE089270073DC1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8401F7B71CE089270073DC1F /* GymNew.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8401F7B91CE089270073DC1F /* GymNew */ = {
+			isa = PBXGroup;
+			children = (
+				8401F7BD1CE089270073DC1F /* AppDelegate.h */,
+				8401F7BE1CE089270073DC1F /* AppDelegate.m */,
+				8401F7C31CE089270073DC1F /* MasterViewController.h */,
+				8401F7C41CE089270073DC1F /* MasterViewController.m */,
+				8453C3461CE08B5200119733 /* MidViewController.h */,
+				8453C3471CE0909100119733 /* MidViewController.m */,
+				8401F7C61CE089270073DC1F /* DetailViewController.h */,
+				8401F7C71CE089270073DC1F /* DetailViewController.m */,
+				8401F7C91CE089270073DC1F /* Main.storyboard */,
+				8401F7CC1CE089270073DC1F /* Assets.xcassets */,
+				8401F7CE1CE089270073DC1F /* LaunchScreen.storyboard */,
+				8401F7D11CE089270073DC1F /* Info.plist */,
+				8401F7C01CE089270073DC1F /* GymNew.xcdatamodeld */,
+				8401F7BA1CE089270073DC1F /* Supporting Files */,
+				8424E90C1CF9034E0045A162 /* ExerciseTypes.h */,
+			);
+			path = GymNew;
+			sourceTree = "<group>";
+		};
+		8401F7BA1CE089270073DC1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8401F7BB1CE089270073DC1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8401F7B61CE089270073DC1F /* GymNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8401F7D41CE089270073DC1F /* Build configuration list for PBXNativeTarget "GymNew" */;
+			buildPhases = (
+				8401F7B31CE089270073DC1F /* Sources */,
+				8401F7B41CE089270073DC1F /* Frameworks */,
+				8401F7B51CE089270073DC1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GymNew;
+			productName = GymNew;
+			productReference = 8401F7B71CE089270073DC1F /* GymNew.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8401F7AF1CE089270073DC1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SSAU;
+				TargetAttributes = {
+					8401F7B61CE089270073DC1F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8401F7B21CE089270073DC1F /* Build configuration list for PBXProject "GymNew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8401F7AE1CE089270073DC1F;
+			productRefGroup = 8401F7B81CE089270073DC1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8401F7B61CE089270073DC1F /* GymNew */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8401F7B51CE089270073DC1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8401F7D01CE089270073DC1F /* LaunchScreen.storyboard in Resources */,
+				8401F7CD1CE089270073DC1F /* Assets.xcassets in Resources */,
+				8401F7CB1CE089270073DC1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8401F7B31CE089270073DC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8401F7C81CE089270073DC1F /* DetailViewController.m in Sources */,
+				8401F7C51CE089270073DC1F /* MasterViewController.m in Sources */,
+				8401F7C21CE089270073DC1F /* GymNew.xcdatamodeld in Sources */,
+				8453C3481CE0909100119733 /* MidViewController.m in Sources */,
+				8401F7BF1CE089270073DC1F /* AppDelegate.m in Sources */,
+				8401F7BC1CE089270073DC1F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8401F7C91CE089270073DC1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8401F7CA1CE089270073DC1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8401F7CE1CE089270073DC1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8401F7CF1CE089270073DC1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8401F7D21CE089270073DC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8401F7D31CE089270073DC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8401F7D51CE089270073DC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GymNew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slamur.app.GymNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8401F7D61CE089270073DC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GymNew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slamur.app.GymNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8401F7B21CE089270073DC1F /* Build configuration list for PBXProject "GymNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8401F7D21CE089270073DC1F /* Debug */,
+				8401F7D31CE089270073DC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8401F7D41CE089270073DC1F /* Build configuration list for PBXNativeTarget "GymNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8401F7D51CE089270073DC1F /* Debug */,
+				8401F7D61CE089270073DC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8401F7C01CE089270073DC1F /* GymNew.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8424E90A1CF4729A0045A162 /* GymNew 2.0 With gym and exercise e_type.xcdatamodel */,
+				8424E9091CF463150045A162 /* GymNew 2.0 With gym and exercise.xcdatamodel */,
+				8401F7C11CE089270073DC1F /* GymNew.xcdatamodel */,
+			);
+			currentVersion = 8424E90A1CF4729A0045A162 /* GymNew 2.0 With gym and exercise e_type.xcdatamodel */;
+			path = GymNew.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8401F7AF1CE089270073DC1F /* Project object */;
+}
